@@ -289,6 +289,42 @@ hr {
 
 /* page6 end */
 
+/* page8 */
+
+.order_complete{
+    align-items: center;
+    text-align: center;
+}
+
+.order_item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.order_complete p{
+    line-height: 100%;
+    margin: 0;
+}
+
+.total_info{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    font-size: 12px;
+}
+
+.total_order_price{
+    font-size: 18px;
+}
+
+.total_order_price .product-price{
+    color: black;
+}
+
+/*.total_info*/
+
+/* page8 end */
+
 
 @media (max-width: 600px) {
     .top-header{
@@ -317,6 +353,10 @@ hr {
 
     .order_title{
         display: none;
+    }
+
+    h1{
+        font-size: 30px;
     }
 
 }
