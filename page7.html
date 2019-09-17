@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=euc-jp">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>KAMADOJOE</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="img/favicon.ico">
+</head>
+
+<body class="page1">
+    <header>
+        <div class="top-header">
+            <div>
+                <a href="index.html"><img alt="" class="logo_title" src="img/logo.png"></a>
+            </div>
+            <div class="progress-status">
+                <span>10% Complete</span>
+            </div>
+        </div>
+        <div class="progress">
+            <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" class="progress-bar" role="progressbar" style="width:100%">
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="container">
+            <div class="step_info">
+                <h5><strong>Step 5</strong> of 15</h5>
+                <h1>PAYMENTS METHOD</h1>
+            </div>
+
+            <div class="row paid_detail">
+                <div class="col-lg-8">
+                    <label>SELECT PAYMENTS METHOD </label>
+
+                    <div class="paypal">
+                        <div class="form-check">
+                            <label class="form-check-label">
+                              <input type="radio" class="form-check-input" name="pay_radio"> <img src="img/paypal.png" alt="" class="paypal_img">
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="credit_card">
+                        <div class="form-check">
+                            <label class="form-check-label credit_label">
+                              <input type="radio" class="form-check-input" name="pay_radio"> Credit Card
+                            </label>
+                        </div>
+                        <div class="credit_inner">
+
+                            <div class="form-group">
+                                <label for="usr">CARD NUMBER</label>
+                                <input type="text" class="form-control" id="credit_number" placeholder="Type your phone">
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label for="usr">EXPIRY DATE</label>
+                                        <input type="text" id="monthpicker" class="form-control" placeholder="MM/YY">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label for="usr">CARD CODE (CVC) </label>
+                                        <input type="text" class="form-control" id="card_code" placeholder="CVC">
+                                    </div>
+                                </div>
+                            </div>
+                            <p>
+                                Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.
+                            </p>
+
+                            <div class="form-check">
+                                <label class="form-check-label credit_check">
+                                  <input type="checkbox" class="form-check-input" value="">I have read and agree to the website terms
+                                  and conditions *
+                                </label>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3 order_card">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card_list">
+                                <span class="list_title">PRODUCT:</span>
+                            </div>
+
+                            <div class="card_list">
+                                <span class="list_title">BIG JOE<i class="far fa-registered"></i> II 24 INCH FREE STANDING CERAMIC GRILL:</span>
+                                <span>x2</span>
+                                <span>$1,899.00</span>
+                            </div>
+
+                            <div class="card_list under_border">
+                                <span class="list_title">HICKORY CHUNKS 10 POUND BAG</span>
+                                <span>x2</span>
+                                <span>$1,899.00</span>
+                            </div>
+
+                            <div class="divider"></div>
+
+                            <div class="card_list">
+                                <span class="list_title">SUBTOTAL:</span>
+                                <span>$1,899.00</span>
+                            </div>
+
+                            <div class="divider"></div>
+
+                            <div class="card_list">
+                                <span class="list_title">SHIPPING:</span>
+                                <span>Free</span>
+                            </div>
+
+                            <div class="divider"></div>
+
+                            <div class="card_list">
+                                <span class="list_title">TAX:</span>
+                                <span>0.00</span>
+                            </div>
+
+                            <div class="divider"></div>
+
+                            <div class="card_list total_order">
+                                <span class="list_title">TOTAL ORDER:</span>
+                                <span>$1,919.88</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="product_footer">
+                <span style="line-height: 42px"><strong>TOTAL ORDER:</strong> $1,899.00</span>
+                <div class="step_button">
+                    <a href="page6.html" class="previous_step"><i class="fas fa-chevron-left"></i> PREVIOUS STEP</a>
+                    <a href="page8.html"><button class="place_order">PLACE ORDER</button></a>
+                </div>
+
+            </div>
+            <span class="copyright">&copy; Copyright 2019 KamadoJoe</span>
+        </div>
+    </footer>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mtz.monthpicker.js"></script>
+    <script>
+        $('#monthpicker').monthpicker();
+    </script>
+
+</body>
+
+</html>
